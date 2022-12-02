@@ -15,7 +15,7 @@
 
 </head>
 
-<body>
+<body style="background-color: aqua;">
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a href="#" class="navbar-brand"> Gerenciador de tarefas</a>
@@ -51,124 +51,92 @@
 
         </div>
     </nav>
-    <div class="row mt-4 ml-1 mr-1">
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
+
+    <header class="py-5">
+        <div class="container px-lg-5"> 
+            <div class="p-4 p-lg-5 bg-light rounded-3 text-center">
+                <div class="m-4 m-lg-5">
+                    <h1 class="display-5 fw-bold">
+                        Bem vindo!
+                    </h1>
+                    <p class="fs-4">
+                        Descrição do sistema
+                    </p>
+                    <a href="register.html" class="btn btn-primary btn-lg">
+                        Registrar-se
+                    </a>
+
                 </div>
-                <div class="card-body">
-                    <h5 class="card-titte"> Título Tarefa</h5>
-                    <p class="card-text"> Descrição da tarefa... lula 13...</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalTarefas"> Ver </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="pt-4">
+        <div class="container px-lg-5">
+            <div class="col-lg-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5"    >
+                        <h2 class="fs-4 fw-bold">
+                            Organize suas tarefas
+                        </h2>
+                        <p class="mb-0">
+                            Use esse sistema para organizar melhor suas atrefas e 
+                        </p>
+                       
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target = "#info2">
+                                Ver mais
+                        </button>
+
+                        <div class="collapse" id="info2">
+                            Texto mais detalhado sobre ponto do sistema e blabla
+                        </div>
+
+                        
+                    </div>
+
                 </div>
 
             </div>
-        </div>
 
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-titte"> Título Tarefa</h5>
-                    <p class="card-text"> Descrição da tarefa... lula 13...</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalTarefas"> Ver </a>
+
+            <div class="col-lg-6 mb-5">
+                <div class="card bg-light border-0 h-100">
+                    <div class="card-body text-center p-4 p-lg-5"    >
+                        <h2 class="fs-4 fw-bold">
+                           Monitore sua produtividade
+                        </h2>
+                        <p class="mb-0">
+                            Use esse sistema para organizar melhor suas atrefas e 
+                        </p>
+                       
+                        <button class="btn btn-primary" data-bs-toggle="collapse" data-bs-target = "#info1">
+                                Ver mais
+                        </button>
+
+                        <div class="collapse" id="info1">
+                            Texto mais detalhado sobre ponto do sistema e blabla
+
+                        </div>
+
+                        
+                    </div>
+
                 </div>
 
             </div>
-        </div>
-
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-titte"> Título Tarefa</h5>
-                    <p class="card-text"> Descrição da tarefa... lula 13...</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalTarefas"> Ver </a>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-
-    <div class="row mt-4 ml-1 mr-1">
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-titte"> Título Tarefa</h5>
-                    <p class="card-text"> Descrição da tarefa... lula 13...</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalTarefas"> Ver </a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-titte"> Título Tarefa</h5>
-                    <p class="card-text"> Descrição da tarefa... lula 13...</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalTarefas"> Ver </a>
-                </div>
-
-            </div>
-        </div>
-
-        <div class="col-sm-4">
-            <div class="card">
-                <div class="card-header">
-                    Categoria Tarefa
-                </div>
-                <div class="card-body">
-                    <h5 class="card-titte"> Título Tarefa</h5>
-                    <p class="card-text"> Descrição da tarefa... lula 13...</p>
-                    <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#ModalTarefas"> Ver </a>
-                </div>
-
-            </div>
-        </div>
-
-    </div>
-    <div class="modal fade" id="ModalTarefas" tabindex="-1" role="dialog" aria-labelledby="TituloModalTarefas" aria-hidden="true">
-        <div  class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="TituloModalTarefas"> Título da Tarefa</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                        <span aria-hidden="true">
-                            &times;
-                        </span>
-                    </button>
-
-
-                </div>
-                <div class="modal-body">
-                    Conteúdo da página... <br/>
-                    Conteúdo da página... <br/>
-                    Conteúdo da página... <br/>
-
-                </div>
-
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                        ok
-                    </button>
-                </div>
-            </div>
 
         </div>
-    </div>
+    </section>
+    <footer class="py-5 bg-dark">
+        <div class="conatiner">
+            <p class="m-0 text-center text-white">
+                Copyright &copy; Your Website 2022
+
+            </p>
+
+        </div>
+
+    </footer>
 
 </body>
 
